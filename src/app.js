@@ -4,7 +4,6 @@ const reservationRoutes = require('./adapters/http/routes/reservationRoutes');
 const authRoutes = require('./adapters/http/routes/authRoutes');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('../config/docs/swagger');
-const authMiddleware = require('./adapters/http/middlewares/authMiddleware');
 const app = express();
 
 app.use(bodyParser.json());
